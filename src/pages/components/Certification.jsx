@@ -67,7 +67,7 @@ const Certifications = () => {
                 <h3 className="lga:text-lg text-base font-bold lga:block hidden">
                   {cert.title}
                 </h3>
-                <p className="lga:text-sm text-[12px] text-gray-400 lga:block hidden">
+                <p className="lga:text-sm text-[12px] text-gray-400 lga:block hidden pr-4">
                   {cert.description}
                 </p>
               </div>

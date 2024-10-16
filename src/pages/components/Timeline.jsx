@@ -123,7 +123,7 @@ const Experience = () => {
     }
     return activities.map((activity, index) => (
       <article className="flex flex-row xla:gap-8 lga:gap-4 gap-2 w-full lga:mt-4 mt-1 items-start">
-        <div className="flex flex-row pt-2 justify-between relative lga:gap-4 gap-1 lga:mr-4 mr-1 min-w-[25%] max-w-[25%]">
+        <div className="flex flex-row pt-2 justify-end relative lga:gap-4 gap-1 lga:mr-4 mr-1 min-w-[25%] max-w-[25%]">
           <p className="font-semibold h-4 lga:text-sm text-[12px] mr-2 lga:mr-0">
             {activity.startDate.toLocaleString("default", {
               year: "numeric",

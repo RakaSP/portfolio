@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link
           to="home"
           smooth={true}
-          offset={0}
+          offset={-200}
           duration={800}
           className="cursor-pointer hover:text-[#00B3FF]"
         >
@@ -18,29 +18,29 @@ const Navbar = () => {
         <Link
           to="about"
           smooth={true}
-          offset={0}
+          offset={-100}
           duration={800}
           className="cursor-pointer hover:text-[#00B3FF]"
         >
           About
         </Link>
         <Link
+          to="projects"
+          smooth={true}
+          offset={-100}
+          duration={800}
+          className="cursor-pointer hover:text-[#00B3FF]"
+        >
+          Projects
+        </Link>
+        <Link
           to="skills"
           smooth={true}
-          offset={0}
+          offset={-100}
           duration={800}
           className="cursor-pointer hover:text-[#00B3FF]"
         >
           Skills
-        </Link>
-        <Link
-          to="timeline"
-          smooth={true}
-          offset={0}
-          duration={800}
-          className="cursor-pointer hover:text-[#00B3FF]"
-        >
-          Timeline
         </Link>
       </nav>
     </header>

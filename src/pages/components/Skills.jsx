@@ -60,7 +60,7 @@ const Skills = () => {
         {skillsData.map((skillCategory) => (
           <div
             key={skillCategory.title}
-            className="flex flex-col p-4 rounded-lg flex-1  bg-[#393e46]"
+            className="flex flex-col p-4 rounded-lg flex-1  bg-[#393e46] hover:bg-[#3e4756]"
           >
             <div className="flex flex-col items-center mb-2">
               <FontAwesomeIcon
